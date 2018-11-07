@@ -19,7 +19,7 @@ Quando("preenche e submete o formulário") do
 end
  
 Então("o usuário deve ver seus portfólios") do
-   #expect(page).to have_text("Seus Portfólios")
+   expect(page).to have_text("Seus Portfólios")
 end
  
 Então("é visível o link sair") do

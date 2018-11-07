@@ -6,7 +6,7 @@ Quando "acessa a lista de portfólios" do
   visit portfolios_path
 end
  
-Então "{int} portfólio(s) listado(s)" do |count|
+Então "{int} portfólios listados" do |count|
   expect(page).to have_css(".portfolio", count: count)
 end
  
